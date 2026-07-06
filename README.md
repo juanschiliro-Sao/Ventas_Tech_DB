@@ -54,16 +54,6 @@ INSERT INTO productos VALUES (3, 'Monitor 4K 27"',      1,  450.00, 12, 1);
 INSERT INTO productos VALUES (4, 'Auriculares BT Pro',  3,  120.00, 35, 1);
 INSERT INTO productos VALUES (5, 'SSD Externo 1TB',     4,  130.00, 18, 1);
 INSERT INTO productos VALUES (6, 'Teclado Mecánico',    2,   95.00, 40, 1);
-INSERT INTO ventas VALUES (1,  1, 1, 2, 1200.00, '2024-03-05');
-INSERT INTO ventas VALUES (2,  2, 2, 5,   28.00, '2024-03-06');
-INSERT INTO ventas VALUES (3,  3, 3, 1,  450.00, '2024-03-07');
-INSERT INTO ventas VALUES (4,  1, 4, 2,  120.00, '2024-03-08');
-INSERT INTO ventas VALUES (5,  4, 5, 3,  130.00, '2024-03-10');
-INSERT INTO ventas VALUES (6,  2, 6, 4,   95.00, '2024-03-11');
-INSERT INTO ventas VALUES (7,  5, 1, 1, 1200.00, '2024-03-12');
-INSERT INTO ventas VALUES (8,  3, 2, 8,   28.00, '2024-03-13');
-INSERT INTO ventas VALUES (9,  4, 4, 1,  120.00, '2024-03-14');
-INSERT INTO ventas VALUES (10, 5, 3, 2,  450.00, '2024-03-15');
 
 Ejecute exitosamente el script sin errores.
 
