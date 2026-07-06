@@ -37,7 +37,7 @@ nombre_producto VARCHAR(100) NOT NULL,
 id_categoria INT FOREIGN KEY REFERENCES categorias (id_categoria),
 precio DECIMAL(10 ,2) NOT NULL,
 stock INT DEFAULT 0,
-activo BIT DEFAULT 1
+activo TINYINT DEFAULT 1
 );
 
 --CREAR TABLA VENTAS
