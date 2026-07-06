@@ -16,7 +16,7 @@ DROP TABLE IF EXISTS categorias;
 CREATE TABLE categorias (
 id_categoria int PRIMARY KEY ,
 nombre_categoria VARCHAR(50) not null,
-descripcion VARCHAR(200),
+descripcion VARCHAR(200)
 );
 
 --CREAR TABLA CLIENTES
@@ -26,7 +26,7 @@ id_cliente INT PRIMARY KEY,
 nombre VARCHAR(100) NOT NULL,
 email VARCHAR(100) unique,
 ciudad VARCHAR(50),
-fecha_registro DATE NOT NULL,
+fecha_registro DATE NOT NULL
 );
 
 --CREAR TABLA PRODUCTOS
@@ -37,7 +37,7 @@ nombre_producto VARCHAR(100) NOT NULL,
 id_categoria INT FOREIGN KEY REFERENCES categorias (id_categoria),
 precio DECIMAL(10 ,2) NOT NULL,
 stock INT DEFAULT 0,
-activo BIT DEFAULT 1,
+activo BIT DEFAULT 1
 );
 
 --CREAR TABLA VENTAS
@@ -48,7 +48,7 @@ id_cliente INT	FOREIGN KEY REFERENCES clientes (id_cliente),
 id_producto INT FOREIGN KEY REFERENCES productos (id_producto),
 cantidad INT NOT NULL,
 precio_unitario DECIMAL (10,2) NOT NULL,
-fecha_venta DATE NOT NULL,
+fecha_venta DATE NOT NULL
 );
 
 --INSERT DATA, CARGAMOS REGISTROS EN CATEGORIAS
